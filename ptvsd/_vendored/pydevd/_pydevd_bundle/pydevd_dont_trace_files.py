@@ -19,8 +19,7 @@ DONT_TRACE = {
     'threading.py':LIB_FILE,
     'dis.py':LIB_FILE,
 
-    #things from pydev that we don't want to trace
-    '_pydev_execfile.py':PYDEV_FILE,
+    # things from pydev that we don't want to trace
     '_pydev_BaseHTTPServer.py': PYDEV_FILE,
     '_pydev_SimpleXMLRPCServer.py': PYDEV_FILE,
     '_pydev_SocketServer.py': PYDEV_FILE,
